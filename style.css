@@ -1,0 +1,62 @@
+.nav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    position: sticky;
+
+
+    padding: 5px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.list{
+    display: flex;
+    background-color: transparent;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    text-align: center;
+}
+
+.list{
+  
+    list-style-type: none;
+
+}
+
+#works{
+    margin-right: 110px;
+    margin-left: 110px;
+}
+
+
+
+.webdev{
+    
+    background-image: url(android.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.android{
+    height: 100vh;
+    background-image: url(webdev.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.intro{
+    background-image: url(what.png);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: scroll;
+}
